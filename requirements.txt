@@ -1,0 +1,10 @@
+Flask
+NRCLex
+gunicorn
+OrderedDict
+requests
+Api
+Resource
+flask_restful
+sklearn
+pandas
