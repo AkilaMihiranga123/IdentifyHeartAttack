@@ -8,3 +8,7 @@ Resource
 flask_restful
 sklearn
 pandas
+joblib
+numpy
+seaborn
+matplotlib
