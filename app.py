@@ -32,7 +32,7 @@ def get():
     )
     reshaped_request_data = pd.Series(request_data).values.reshape(1, -1)
     actual_heart_attack_prediction = load_trained_model.predict(reshaped_request_data)
-    return actual_heart_attack_prediction
+    return str(actual_heart_attack_prediction)
 
 
 if __name__ == "__main__":
